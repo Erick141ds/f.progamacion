@@ -10,5 +10,5 @@ distancia:
 '''
 pi = int(input("escribe el punto i: "))
 pf = int(input("escribe el punto f: "))
-d = ( pf - pi )
+d = abs( pf - pi )
 print(" la distancia es: ",d)
